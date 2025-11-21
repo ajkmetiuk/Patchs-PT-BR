@@ -1,0 +1,58 @@
+Tradução de BS The Legend of Zelda para SNES v.1.0
+
+Um pouco sobre o jogo: 
+
+BS The Legend of Zelda é um remake do original The Legend of Zelda, disponível apenas através do complemento Satellaview para o Super Nintendo.
+A jogabilidade é semelhante ao original e inclui gráficos de qualidade muito superior.
+A maior diferença, no entanto, é o sistema de tempo.
+Durante certas horas, diferentes eventos acontecem, como os personagens receber diferentes melhorias ou inimigos se tornando mais fortes por um certo período.
+Devido à natureza de transmissão do jogo, ele também tinha que ser jogado de uma só vez e estava disponível apenas uma hora por semana.
+
+
+Sobre a tradução:
+Na verdade, eu nem estava pensando em traduzir esse jogo. O Anime_World do nada veio me perguntar se eu queria que ele dumpasse algum jogo de snes, comentei do BS Zelda
+e ele depois me surpreendeu me mandando o script do jogo + alguns gráficos principais. A gente escolheu a versão Mottzilla porque é a mais fácil de jogar, tem os 2 mapas unidos,
+tem a possibilidade de escolher os mascotes BSX + o Link fora outras coisas que só nessa versão tem.
+Fiz os gráficos primeiro, o Anime deu uma ajeitada no inventário (sim, essa fonte itálica legal e doidona é ideia dele haha).
+Passei pro script, finalizei e acabou faltando o gráfico das telas finais, a intro e mais uns textos aleatórios perdidos na rom.
+Como o Anime estava sem tempo por problemas pessoais (e eu também nem queria incomodar), acabei fazendo o que restou e aproveitei para arrumar o patch msu-1 que não era compatível com essa versão,
+já aproveitando para lançar junto com ele aplicado.
+
+
+Progresso:
+(v.1.0)
+
+Primeira versão.
+Tradução feita em cima do patch Mottzilla e também do patch MSU-1 (editei para ficar compatível com esta versão).
+Tudo o que era possível foi traduzido como textos, gráficos, finais, créditos, etc.
+
+Tradução/Gráficos/ROMHacking/Revisão: ajkmetiuk
+Dump do script principal/RomHacking/Alguns gráficos: Anime_World
+
+Agradecimentos Especiais:
+- Ao denim que sempre me ajuda com alguma coisa, por mais pequena que seja (a revisão do codec 8bpp no TM foi extremamente útil nesse jogo) e de certa forma, me incentivou a usar mais o debugger.
+- Ao MottZilla e os outros envolvidos que criaram essa versão e facilitou muito a parte da emulação desses jogos de BS-X.
+- Ao Conn que criou e disponibilizou o patch de músicas MSU-1 para versão FQ/MQ.
+
+
+Rom utilizada:
+BS-Zelda MottZilla Patch (v0.95)
+ROM SHA-1: E4368387A406B63D2886DA466934B29EADCC73DB
+ROM CRC32: E93911DA
+
+
+Como aplicar a tradução:
+
+Como foi mencionado anteriormente, o jogo foi traduzido em cima do patch MottZilla e do patch MSU-1. Como o patch msu-1 não era compatível, foram feitos alguns ajustes na rom e no pacote de
+músicas e por isso vou disponibilizar ele completo, bastando apenas aplicar o IPS na rom.
+
+O patch foi criado usando o aplicativo Lunar IPS, que pode ser baixado pesquisando o nome no google.
+
+Depois de baixar, deixe tudo em uma mesma pasta, tanto a rom como os arquivos do MSU-1. A rom obrigatoriamente tem que estar com o nome bsz_br-msu1 para o funcionamento correto.
+
+Abra o programa, clique em "Apply IPS Patch", selecione o "BSZ_PT-BR_V1.0.ips" e clique em "Abrir"
+Na tela seguinte, selecione a rom, clique em abrir e pronto! Seu jogo estará traduzido.
+O jogo foi testado do início ao fim no emulador Mesen-S 0.4.0, nesse garanto compatibilidade 100%. Em qualquer outro foi só aberto a rom, então, fique por sua conta e risco.
+
+
+Caso encontre algum bug/erro (relacionado com a tradução), reporte.

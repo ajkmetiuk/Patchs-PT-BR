@@ -1,0 +1,1 @@
+Repositório de todas minhas traduções e também algumas contribuições.

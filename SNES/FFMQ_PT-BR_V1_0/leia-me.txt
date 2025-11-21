@@ -1,0 +1,87 @@
+Tradução de Final Fantasy Mystic Quest para SNES v.1.0
+
+Um pouco sobre o jogo: 
+
+Final Fantasy Mystic Quest, lançado no Japão como Final Fantasy USA: Mystic Quest, é um jogo eletrônico de RPG desenvolvido e publicado pela SquareSoft para o Super Nintendo.
+O jogo foi desenvolvido como um spin-off da série Final Fantasy destinado especificamente ao mercado norte-americano, sendo divulgado como um "jogo RPG simplificado"
+projetado para o jogador de nível iniciante em uma tentativa de ampliar seu apelo geral.
+Sua apresentação e sistema de batalha são bem semelhantes ao da série principal, porém difere na inclusão de elementos de jogos de ação-aventura.
+Mystic Quest também foi o primeiro Final Fantasy lançado na Europa.
+Na história, o jogador controla um jovem chamado Benjamin durante sua jornada para salvar o mundo.
+Seu objetivo é reconquistar um conjunto de cristais roubados que determinam o estado dos quatro poderes elementais.
+
+
+Sobre a tradução (opcional, se não quiser ler, pode pular para o progresso):
+
+Essa tradução foi bem desafiadora porque além de ser RPG, era de SNES e eu nunca tinha mexido nesta plataforma ainda.
+Foi meu primeiro RPG de SNES que joguei e assim que saiu a tradução italiana fui correndo pedir ajuda e como ninguém ainda tinha traduzido ou tentado, resolvi fazer.
+Depois que o Ombra me passou sua tool e me deu uma explicação de como funcionava, comecei a fazer mas aí nesse ano me pediram ajuda na tradução do Dino Crisis,
+depois na do Vandal Hearts, na do Galerians... e a coitadinha foi ficando para trás. Assim que terminamos todas, terminei outros projetos meus pendentes e voltei nesse.
+Finalizando o script, percebi que a tradução ia bem mais além do que a tool oferecia, no meio do caminho teve vários problemas, entrando em contato com o Ombra, nenhum deles ocorreu na tradução deles
+porque mal foi usado esses recursos (Acentos que funcionava em um lugar mas em outro não, nome de monstros não aceitava acentos, menu com acento ficava bugado, todos nomes de status quando entrava
+no menu travava o jogo, textos que foram reutilizados no espaço original bugando, ajustar a fonte vwf, centralizar textos usando vwf (um saco) e vários outros que nem lembro mais de tanta bagunça que tava já).
+Aprendi a mexer um pouco com visualização da memória do emulador e consegui consertar tudo na mão, já estava virando um salsicho o asm de tanta edição, mas o importante é que resolveu.
+Nesses vários testes percebi que a magia Silence não funcionava e que provavelmente fizeram proposital para tornar o jogo mais "fácil", já que a intenção do jogo era realmente essa.
+Pra mim realmente não fazia sentido a magia existir e não funcionar.
+Tentei procurar ajuda, olhei na internet e nada, nem em fóruns de romhacking tinha uma pista sequer.
+A única coisa que encontrei foi de um usuário que encontrou aonde a magia se localizava, mas não sabia como programar ela para funcionar corretamente.
+Do jeito que foi postado, a magia causava o status toda hora, independente de ter resistência ou não e as mensagens da magia ficavam todas ocultas (claro, do jeito errado não ia funcionar mesmo.)
+Segundo o Ombra e o denim, seria difícil um "fix fácil" porque teria que analisar como funcionava todo sistema de magia, não tinha como criar na louca uma solução.
+Fuçando na visualização de memória consegui entender como todas magias de status funcionava, editei o que precisava e testei várias vezes todas as magias para ver e realmente tinha funcionado!
+A magia teve a probabilidade de acerto, resistência e as mensagens de dano todas restauradas e funcionais. Com tudo terminado, revisei e mostrei ao denim a tela final do jogo e a inicial que eram bem complexas de editar.
+Ele se interessou, analisou, disse que era bem complicado, que era a primeira vez que viu isso em um jogo de SNES mas que ia ver, não garantia nada, era só eu mandar a imagem editada que ele tentava o resto.
+(não custava nada né, no máximo eu ia remover a tela, colocar uma tarja preta e iria ficar bem horroroso kk)
+Analisando me disse que era possível, criou as tools, programou, fez o processo inverso, alinhou e saiu um excelente trabalho (Até o Ombra disse que ia tentar fazer na tradução dele kk).
+Com tudo terminado, me aparece o Tiozinho da Telesena com esse tal de MSU-1 na tradução do Aladdin e claro, a qualidade era excelente, fiquei curioso e fui ver como era desse jogo e me surpreendi
+com a qualidade, deu um novo ar ao jogo e com certeza o jogo merece ser jogado o mais completo possível então logicamente adicionei na tradução também como item obrigatório! 
+Ufa, realmente senti que não tinha mais nada para editar, fiz uma última revisão para caçar erros (foi uma boa idéia, porque tinha) e agora está aí lançado para todos vocês também aproveitarem!
+É um textão, totalmente opcional de leitura, mas é só para o pessoal que ler ver como é a saga de uma tradução, que não é fácil traduzir, mesmo com ferramentas, leva tempo. 
+Quem só vai clicar em download e usufruir da mesma (ou reclamar) as vezes nem imagina que pode enfrentar tudo isso até o resultado final.
+
+
+Progresso:
+(v.1.0)
+
+Início: 29/01/2021
+Término: 05/02/2022
+
+Primeira versão. Absolutamente tudo traduzido (Tudo mesmo!).
+Tradução feita em cima do patch MSU-1 então obviamente irá precisar dele para jogar, não é opcional. A qualidade é incrível e realmente vale 100% a pena. Obviamente, só é compatível com emuladores com suporte a MSU-1.
+Corrigido nessa tradução 2 bugs "oficiais" dos vários que existem nesse jogo como o pior causado pela magia Life que dava dano em todos inimigos, menos em zumbi e também um inédito que não era bug, mas o da magia Silence que não funcionava.
+Acredito que tiraram de propósito esse estado pois os desenhos são parecidos com placeholder, mas a magia é totalmente funcional, então prepare-se para ficar "incapaz de usar magia" haha.
+E da magia Life, só causa dano em undead agora, parece que tem só 4 ou 5 monstros, então só esses irão receber instant kill pela magia.
+
+Tradução/Gráficos/ROMHacking/Revisão: ajkmetiuk
+ASM/Programação: denim
+
+Agradecimentos Especiais:
+- Ao Ombra da cena italiana que assim que lançou a tradução já entrei em contato e prontamente me respondeu e me enviou a tool e também por me tentar me ajudar diversas vezes.
+- Ao Mr.Fox que ainda estava na ativa ano passado e me ajudou e deu dicas espetaculares em vários diálogos que estava em dúvida.
+- Ao denim que programou toda tela inicial e final, os efeitos das letras girando, o fim sendo escrito pela pena, me ajudou a inverter também a letra B1 para S1 e o resultado ficou incrível.
+- Ao Sliter que me deu umas dicas na tela título para ficar mais harmonioso.
+- Ao JCE3000GT que criou uma tool e disponibilizou no rh.net com a possibilidade de correção da magia Life. Com certeza foi muito útil e deixou o jogo como era pra ser realmente.
+- Ao Fennor_Virastar que foi o único que postou algo referente a magia Silence na internet e meio que indiretamente me ajudou a arrumar a magia.
+- Ao Conn que criou e disponibilizou o patch de músicas MSU-1.
+
+
+Rom utilizada:
+Final Fantasy - Mystic Quest (USA) (Rev 1)
+CRC32: 2C52C792
+SHA-1: 6BE74B73B736BC6027C0E92619874DA7C498BED0
+
+
+Como aplicar a tradução:
+
+Como foi mencionado anteriormente, o jogo foi traduzido em cima do patch MSU-1. Quando revisei, vi que tinha música sendo tocada errada, talvez o autor não tenha percebido.
+Como arrumei isso, vou disponibilizar ele completo, só bastando mesmo aplicar o IPS na rom.
+
+O patch foi criado usando o aplicativo Lunar IPS, que pode ser baixado pesquisando o nome no google.
+
+Depois de baixar, deixe tudo em uma mesma pasta, tanto a rom como os arquivos do MSU-1. A rom obrigatoriamente tem que estar com o nome ffmq_msu1 senão o jogo fica sem som do início ao fim.
+
+Abra o programa, clique em "Apply IPS Patch", selecione o "FFMQ_PT-BR_V1.0.ips" e clique em "Abrir"
+Na tela seguinte, selecione a rom, clique em abrir e pronto! Seu jogo estará traduzido.
+O jogo foi testado do início ao fim no emulador Mesen-S 0.4.0, nesse garanto compatibilidade 100%. Em qualquer outro não foi testado, então, fique por sua conta e risco.
+
+
+Caso encontre algum bug/erro (relacionado com a tradução), reporte.
